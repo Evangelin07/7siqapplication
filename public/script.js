@@ -23,7 +23,7 @@ document.getElementById("applicationForm").addEventListener("submit", async func
   }
 
   try {
-    const res = await fetch("https://job-application-backend-98tw.onrender.com/submit", {
+    const res = await fetch("https://job-form-l557.onrender.com/submit", {
   method: "POST",
   headers:{'Content-Type':'application/json'},
   body:JSON.stringify(formData)
