@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(--dirname,'public')));
+app.use(express.static(path.join(__dirname,'public')));
 app.post('/submit',async(req,res)=>{
   const data= req.body;
 })
